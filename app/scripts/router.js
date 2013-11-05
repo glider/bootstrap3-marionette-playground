@@ -9,6 +9,7 @@ define(function(require) {
 			"form": "goto_form",
 			"list": "goto_list",
 			"tree": "goto_tree",
+			"grid": "goto_grid",
 			"": "goto_index"
 		}
 	});

@@ -5,6 +5,7 @@
     "sass-bootstrap": "*",
     "jquery": "*",
     "requirejs": "*",
+    "bootstrap": "latest",
     "requirejs-text": "*",
     "backbone-amd": "*",
     "underscore-amd": "*",

@@ -28,7 +28,7 @@ define(function(require) {
 		},
 
 		onRender: function() {
-			console.info('Selector::onRender');
+//			console.info('Selector::onRender');
 			this.renderDropdown();
 		},
 

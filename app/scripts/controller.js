@@ -47,6 +47,16 @@ define(function(require) {
 				var tree = App.module('Tree');
 				tree.start();
 			});
+		},
+
+		goto_grid: function () {
+			require(['modules/grid/index'], function () {
+				if (App.module('Grid')) {
+					App.module('Grid').stop();
+				}
+				var grid = App.module('Grid');
+				grid.start();
+			});
 		}
 	};
 });
