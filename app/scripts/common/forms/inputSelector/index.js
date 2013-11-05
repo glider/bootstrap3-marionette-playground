@@ -28,7 +28,6 @@ define(function(require) {
 		},
 
 		onRender: function() {
-//			console.info('Selector::onRender');
 			this.renderDropdown();
 		},
 
@@ -51,7 +50,6 @@ define(function(require) {
 		},
 
 		onSelect: function(value) {
-			console.info('onSelect: ', value);
 			this.ui.input
 				.val(value)
 				.trigger('change');
