@@ -1,0 +1,73 @@
+.tree ul {
+	list-style-type: none;
+}
+
+.tree li .selected {
+	color: darkgreen;
+}
+
+/* Список селекторов иерархический */
+.tree ul {
+	margin: 0 0 0 -21px;
+	padding: 0;
+}
+
+.tree ul.node-children {
+	display: none;
+}
+
+.tree ul li {
+	border-width: 0;
+	list-style-type: none;
+	vertical-align: top;
+	position: relative;
+	padding: 0 0 0 35px;
+}
+/*
+.tree ul .count {
+	color: gray;
+	vertical-align: middle;
+	margin-left: .25em;
+	font-style: normal;
+}
+
+.tree ul .selected .count {
+	color: green;
+}
+.tree ul .type-radio,
+.tree ul .type-checkbox {
+	position: relative;
+	left: 0px;
+	margin-left: -22px;
+}
+
+.tree ul input[type="radio"],
+.tree ul input[type="checkbox"] {
+	position: relative;
+	left: 0px;
+	margin-top: 0px;
+	margin-left: -20px;
+}
+
+*/
+
+/* Список селекторов разворачиваемый */
+.tree ul li label {
+	display: inline-block;
+}
+
+
+.tree .bolder label {
+	font-weight: bold;
+}
+
+.tree .expander {
+	display: inline-block;
+	left: 1em;
+	cursor: pointer;
+	position: absolute;
+}
+
+.tree div.node span {
+	cursor: pointer;
+}

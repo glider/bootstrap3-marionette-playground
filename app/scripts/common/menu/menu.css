@@ -1,0 +1,19 @@
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	color: #404040;
+}
+
+a:focus {
+	outline: none;
+}
+
+.nav-tabs > li > a {
+	cursor: pointer;
+}
+
+.navbar-inner {
+	border-radius: 0 !important;
+}
+
+.nav-tabs li.active a {
+	background-color: #E0F2BE !important;
+}

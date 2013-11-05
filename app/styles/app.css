@@ -1,0 +1,237 @@
+html, body {
+	height: 100%;
+}
+
+dt, dd {
+	min-height: 20px;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	margin: 0 auto -60px;
+}
+#push,
+#footer {
+	height: 60px;
+}
+#footer {
+	background-color: #f5f5f5;
+}
+@media (max-width: 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+#footer .container .credit {
+	margin: 20px 0;
+}
+
+.brand .version {
+	text-transform: none;
+}
+
+.appVersion {
+	opacity: 0.3;
+	margin: 20px 0;
+}
+
+.divider-vertical {
+	border-right: none !important;
+}
+
+.page, .next, .prev, .first, .last {
+	cursor: pointer;
+}
+
+.page:hover {
+	cursor: pointer;
+}
+
+.CodeMirror {
+	height: auto;
+}
+.CodeMirror-scroll {
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+.modal-footer .errMessage {
+	color: red;
+	margin: 1em;
+	display: inline;
+}
+
+.requiredmarker {
+	color: red;
+	font-size: 20px;
+}
+
+table tr.active {
+	color: #339933;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	color: #404040;
+}
+
+a:focus {
+	outline: none;
+}
+
+.nav-tabs > li > a {
+	cursor: pointer;
+}
+
+.navbar-inner {
+	border-radius: 0 !important;
+}
+
+table.table thead th {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+table.table thead .sorting,
+table.table thead .sorting_asc,
+table.table thead .sorting_desc,
+table.table thead .sorting_asc_disabled,
+table.table thead .sorting_desc_disabled {
+	cursor: pointer;
+}
+
+table.table thead .sorting { background: url('../img/sort_both.png') no-repeat center right; }
+table.table thead .sorting_asc { background: url('../img/sort_asc.png') no-repeat center right; }
+table.table thead .sorting_desc { background: url('../img/sort_desc.png') no-repeat center right; }
+
+.rules {
+	margin-left: -15px !important;
+}
+
+body {
+	/*color: #555 !important;*/
+}
+
+.vlink {
+	cursor: pointer;
+	color: #08C;
+	/* border-bottom: 1px dashed #08C; */
+	text-decoration: underline;
+}
+
+tr td.row-controls span {
+	visibility: hidden;
+}
+
+tr:hover td.row-controls span {
+	visibility: visible;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+input.requiredError {
+	border: 1px solid #833;
+	background-color: #faa;
+	transition: all 0.6s ease;
+}
+
+.controls label {
+	padding: 4px;
+	margin: 0;
+}
+
+.controls label input {
+	margin: 0 0.6em 0 0 !important;
+	float: none;
+}
+
+.shopMenu li.active a {
+	background-color: #e0f2be;
+}
+
+#loading-indicator {
+	display: none;
+	position: fixed;
+	background-color: #fff;
+	opacity: 0.7;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+}
+
+#loading-indicator img {
+	position: relative;
+	left: 48%;
+	top: 46%;
+}
+
+input.compact {
+	min-height: 20px !important;
+	height: 20px;
+	padding: 2px;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+
+/* Список правил в ProductGenerator */
+.rulesPlace .rule {
+	padding: 0.4em;
+	border-top: 1px solid #ccc;
+}
+
+.rulesPlace .rule:hover {
+	background-color: #eee;
+}
+
+.rulesPlace .rule table {
+	margin-bottom: 0;
+}
+
+.rulesPlace .rule .title {
+	margin-top: 8px;
+}
+
+.rulesPlace .rule .addParameter {
+	display: none;
+}
+
+.rulesPlace .rule.enabled .addParameter {
+	display: block;
+}
+
+.form-horizontal.sublevel {
+	margin: 6px auto;
+}
+.form-horizontal.sublevel .control-group {
+	margin-bottom: 0;
+}
+.fixPanel .fixedPanel {
+	position: fixed;
+	top: 0;
+	background: white;
+	padding-right: 40px;
+	z-index: 1000;
+}
+.shopContent {
+	float: right !important;
+}
+.shopMenu {
+	position: fixed;
+	top: 122px;
+}
+
+.fixPanel .shopMenu {
+	top: 60px;
+}

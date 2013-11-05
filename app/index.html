@@ -1,0 +1,55 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="styles/index.css">
+
+</head>
+
+<body style="padding-top: 65px;">
+	<div id="loading-indicator">
+		<img src="img/ajax-loader.gif"/>
+	</div>
+
+	<div id="wrap">
+		<div class="navbar navbar-default navbar-fixed-top">
+			<!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">-->
+			<a class="navbar-brand" href="#">Bootstrap SandBox</a>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#form">Элементы форм</a></li>
+					<li><a href="#grid">Таблицы</a></li>
+					<li><a href="#list">Списки</a></li>
+					<li><a href="#tree">Деревья</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container" id="container"></div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<p class="appVersion pull-right">@@version</p>
+			<p class="credit pull-left">
+				Компания <a href="http://adriver.ru" target="_blank">Adriver</a> | © 2013
+			</p>
+		</div>
+	</div>
+
+    <!-- build:js scripts/main.js -->
+    <script data-main="scripts/main" src="bower/requirejs/require.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

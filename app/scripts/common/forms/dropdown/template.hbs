@@ -1,0 +1,8 @@
+<button type="button" class="btn btn-default dropdown-toggle">
+	{{{title}}} <span class="caret"></span>
+</button>
+<ul class="dropdown-menu pull-{{align}}">
+	{{#each menuItems}}
+	<li data-value="{{this.id}}" class="dropdown-menu-item"><a>{{this.title}}</a></li>
+	{{/each}}
+</ul>

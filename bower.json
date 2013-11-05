@@ -1,0 +1,22 @@
+{
+  "name": "Bootstrap-test",
+  "version": "0.1.0",
+  "dependencies": {
+    "sass-bootstrap": "*",
+    "jquery": "*",
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "backbone-amd": "*",
+    "underscore-amd": "*",
+    "backbone.marionette": "*",
+    "backbone.wreqr": "*",
+    "backbone.babysitter": "*",
+    "require-handlebars-plugin": "*",
+    "backbone.marionette.handlebars": "*",
+    "backbone-deep-model": "*",
+    "normalize-css": "*",
+    "backbone-pageable": "*",
+    "Backbone.ModelBinder": "*"
+  },
+  "devDependencies": {}
+}

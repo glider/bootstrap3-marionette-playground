@@ -1,0 +1,20 @@
+{{#if predefined}}
+	<div class="input-group input-group-sm btn-group">
+		<input class="form-control" type="text" name="{{name}}" value="{{value}}">
+
+<!--
+		<div class="input-group-btn">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu pull-right">
+				{{#each predefined}}
+				<li data-value="this.id" class="dropdown-menu-item"><a href="#">{{this.title}}</a></li>
+				{{/each}}
+			</ul>
+		</div>
+-->
+
+{{else}}
+	<input type="text" name="{{name}}" value="{{value}}"/>
+{{/if}}
