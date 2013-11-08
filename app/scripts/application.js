@@ -23,17 +23,6 @@ define(function(require) {
 		Backbone.history.start();
 	});
 
-	Communicator.mediator.on("auth:required", function () {
-		App.Router.navigate('login', { trigger: true, replace: true });
-	});
-
-	Communicator.mediator.on("auth:logout", function () {
-		App.Router.navigate('login', { trigger: true, replace: true });
-	});
-
-	Communicator.mediator.on("auth:login", function () {
-		App.Router.navigate('', { trigger: true, replace: true });
-	});
 /*
 	Communicator.mediator.on("shops:list", function () {
 		App.Router.navigate('', { trigger: true, replace: true });
@@ -70,7 +59,6 @@ define(function(require) {
 
 	$('.brand').on('click', function() {
 		App.Router.navigate('index');
-//		Communicator.mediator.trigger("shops:list");
 	});
 
 	return App;
